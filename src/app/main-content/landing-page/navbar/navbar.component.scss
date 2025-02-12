@@ -1,4 +1,4 @@
-// @import '../../../../styles.scss';
+@use '../../../../styles.scss' as styles;
 
 @mixin borderStyle() {
     border: 2px solid whitesmoke;
@@ -32,6 +32,6 @@ nav {
 }
 
 .phone-btn {
-    background-color: red;
+    background-color: styles.$dark-red;
     @include borderStyle();
 }

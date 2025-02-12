@@ -1,4 +1,4 @@
-// @import '../../../styles.scss';
+@use '../../../styles.scss' as styles;
 
 .order-container{
     margin-top: 120px;
@@ -11,7 +11,6 @@
         padding-bottom: 64px;
     }
 }
-
 
 .how-to-order {
     display: flex;
